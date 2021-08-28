@@ -1,0 +1,59 @@
+.jumbotron {
+   
+background-size: 100% 150%;
+  background-repeat: no-repeat;
+  height:340px;
+  
+  
+  }
+  .jumbotron > p {
+    position:absolute;
+    color :rgb(0, 0, 0);
+    text-align: center;
+    left:300px;
+  	bottom:5px;
+	font-family: Arial, Helvetica, sans-serif;
+  	background-color: rgb(0, 0, 0, 0.8);
+
+	  font-size:30px;
+		color:rgb(233, 233, 233)
+	
+  }
+
+#bar {
+	font-size: smaller;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #164e27;
+	color: #85541d;
+}
+
+#selDataset {
+	padding: 7px;
+	color: black;
+}
+
+#samplePanel {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	font-weight:bolder;
+	color: #ffffff;
+	background-color: #325a44;
+}
+
+#demoPanel {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	color: #ffffff;
+	background-color: #325a44;
+}
+#sample-metadata {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	color: #ffffff;
+	background-color: #325a44;
+}
+body {
+    background-image: linear-gradient(to bottom right, #175c3c, #000000, #1a492f, rgb(15, 51, 45));
+	
+  
+  }
