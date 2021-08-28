@@ -40,7 +40,15 @@ The final asset added the the dashboard was a Guage chart. The Gauge chart displ
 ![Gauge Chart](https://user-images.githubusercontent.com/84881187/131232309-93df6e18-abb0-4da1-8af6-f3324c68979f.PNG)
 
 
-The final step in producing our finished interactive webpage, was to add a few customizations to make it standout. We added a microbe image background for our jumbotron banner, along with adding a gradient green colored background scheme to match the banner. We also edited the font/text to make it contrast with the background to make it more appealing and legibile with our go-green theme. We also customized the charts to have a black background and white text to match the theme as well. 
+The final step in producing our finished interactive webpage, was to add a few customizations to make it standout. We added a microbe image background for our jumbotron banner, along with adding a gradient green colored background scheme to match the banner. We also edited the font/text to make it contrast with the background to make it more appealing and legibile with our go-green theme. We also customized the charts to have a black background and white text to match the theme as well. Our page is also reflesive for mobile viewing. Please see below for a screenshot of the completed webpage:
+
+![WebPage_1](https://user-images.githubusercontent.com/84881187/131232887-d53e5cb3-a568-4ef3-b706-17f22f0163b2.PNG)
+
+
+
+
+![Responsive Webpage](https://user-images.githubusercontent.com/84881187/131232888-563e9889-2501-4995-8189-50aa60e2a89d.PNG)
+
 
 ### Deployment
 
