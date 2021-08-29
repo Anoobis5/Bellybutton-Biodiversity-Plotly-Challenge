@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-For this project, we were tasked with completing an interactive dashboard that allows the user to explore the [Belly Button Biodiversity](http://robdunnlab.com/projects/belly-button-biodiversity/) dataset, which catalogues the microbes that colonize the human navel cavity.
+For this project, we were tasked with completing an interactive dashboard that allows the user to explore the Belly Button Biodiversity sample dataset (from our sample.json file), which catalogues the microbes that colonize the human navel cavity.
 
 ## Project Analysis
 
