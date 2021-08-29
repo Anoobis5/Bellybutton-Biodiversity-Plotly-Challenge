@@ -20,12 +20,6 @@ background-size: 100% 150%;
 	
   }
 
-#bar {
-	font-size: smaller;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	background-color: #164e27;
-	color: #85541d;
-}
 
 #selDataset {
 	padding: 7px;
@@ -50,7 +44,7 @@ background-size: 100% 150%;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	text-align: center;
 	color: #ffffff;
-	background-color: #325a44;
+	background-color: #1d3327;
 }
 body {
     background-image: linear-gradient(to bottom right, #175c3c, #000000, #1a492f, rgb(15, 51, 45));

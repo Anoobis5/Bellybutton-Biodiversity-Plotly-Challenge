@@ -54,12 +54,14 @@ function buildMetadata(sample) {
   });
 }
 
-//Deliverable 1
+//Deliverables 1-3
+
 // Bar, Bubble, and Guage charts
-// 1. Creates the buildCharts function.
+
+// Creates the buildCharts function.
 function buildCharts(sample) {
 
-  // 2. Use d3.json to load and retrieve the samples.json file 
+  // Use d3.json to load and retrieve the samples.json file 
   d3.json("samples.json").then((data) => {
     var samples = data.samples;
     var resultsArray = samples.filter(sampleObj => sampleObj.id == sample);
@@ -95,7 +97,7 @@ function buildCharts(sample) {
 
 // Create a Bubble Chart
 
-    // 1. Create the trace for the bubble chart.
+    // Create the trace for the bubble chart.
     var bubbleData = [
         {
         x:ids,
@@ -112,7 +114,7 @@ function buildCharts(sample) {
 
     var data = [bubbleData];
 
-    // 2. Create the layout for the bubble chart.
+    // Create the layout for the bubble chart.
     var bubbleLayout = {
       title:"<b>Bacteria Culture Per Sample</b>",
     
@@ -130,7 +132,7 @@ function buildCharts(sample) {
     responsive: true,
   };
 
-    // 3. Use Plotly to plot the data with the layout.
+    // Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
 
 
@@ -157,7 +159,7 @@ console.log(data.metadata);
       }
     }];
     
-    // 5. Create the layout for the gauge chart.
+    // Create the layout for the gauge chart.
     var gaugeLayout = { 
     automargin: true,
     width: 450,
@@ -172,7 +174,7 @@ console.log(data.metadata);
   };
   
 
-    // 6. Use Plotly to plot the gauge data and layout.
+    // Use Plotly to plot the gauge data and layout.
     Plotly.newPlot("gauge", gaugeData, gaugeLayout)
   });
 }
